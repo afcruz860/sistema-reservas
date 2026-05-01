@@ -45,12 +45,17 @@ Estructura del proyecto
 Código
 SistemaReservas/
 
-main.py          # Interfaz gráfica y flujo principal
-clientes.py      # Clase Cliente con validaciones y encapsulación
-servicios.py     # Clase abstracta Servicio + servicios especializados
-reservas.py      # Clase Reserva con confirmación, cancelación y procesamiento
-logs.txt         # Registro de eventos y errores
-README.md        # Documentación del proyecto
+main.py          Interfaz gráfica y flujo principal
+
+clientes.py      Clase Cliente con validaciones y encapsulación
+
+servicios.py     Clase abstracta Servicio + servicios especializados
+
+reservas.py      Clase Reserva con confirmación, cancelación y procesamiento
+
+logs.txt         Registro de eventos y errores
+
+README.md        Documentación del proyecto
 
 Ejemplo de ejecución
 
@@ -61,7 +66,9 @@ Andrés Cruz	andres@yahoo.com	3126549875	Sala de reuniones	5	Cancelada
 
 
 Logs registrados
+
 text
+
 2026-05-01 12:34:54,064 - INFO - Reserva confirmada correctamente.
 2026-05-01 12:35:04,716 - INFO - Reserva cancelada correctamente.
 2026-05-01 12:35:07,040 - INFO - Reserva procesada: costo total = 356.95
