@@ -4,7 +4,7 @@ from servicios import ErrorServicio
 
 logging.basicConfig(
     filename="logs.txt",
-    filemode="a",   # 👉 importante: agrega en vez de sobrescribir
+    filemode="a",   
     level=logging.DEBUG,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
