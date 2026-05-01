@@ -44,14 +44,16 @@ Consultar el archivo logs.txt para verificar los eventos registrados.
 Estructura del proyecto
 Código
 SistemaReservas/
-│
-├── main.py          # Interfaz gráfica y flujo principal
-├── clientes.py      # Clase Cliente con validaciones y encapsulación
-├── servicios.py     # Clase abstracta Servicio + servicios especializados
-├── reservas.py      # Clase Reserva con confirmación, cancelación y procesamiento
-├── logs.txt         # Registro de eventos y errores
-└── README.md        # Documentación del proyecto
+
+main.py          # Interfaz gráfica y flujo principal
+clientes.py      # Clase Cliente con validaciones y encapsulación
+servicios.py     # Clase abstracta Servicio + servicios especializados
+reservas.py      # Clase Reserva con confirmación, cancelación y procesamiento
+logs.txt         # Registro de eventos y errores
+README.md        # Documentación del proyecto
+
 Ejemplo de ejecución
+
 Tabla de reservas
 Nombre	Email	Teléfono	Servicio	Duración	Estado
 Andrés Cruz	andres@yahoo.com	3126549875	Sala de reuniones	5	Confirmada
